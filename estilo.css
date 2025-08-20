@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background-color:rgb(122, 122, 132);
+    align-items: center;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.logo{
+    display: flex;
+    height: 80px;
+}
+.title{
+    font-family: sans-serif ;
+    margin-left: 40px;
+    color: #fff;
+}
+#menuhz ul {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 0px;
+    margin: 0px;
+    background-color: #c5c2c2;
+    list-style: none;
+    float: left;
+    width: 100%;
+    font-size:large ; 
+      
+
+}
+#menuhz ul li{
+    display:inline-flex;
+    
+
+}
+#menuhz ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+    background-color: rgb(122, 122, 132);
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+#menuhz ul li a:hover{
+    color: gold;
+   
+}
+section{
+    display: flex;
+    background-color:darkblue;
+    height: auto;
+        
+}
+.main img{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    text-align: left;
+    
+}
+.main p{
+    font-family: sans-serif;
+    font-size: large;
+    text-align: justify;
+    margin: 20px;
+    color: gold;
+    
+}
+.main h2{
+    text-align: center;
+    color: gold;
+}
+
+aside {
+    display: flex;
+    background-size: 30%;
+    width: 30%;
+    
+}
+
+#formulario{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-style: none;
+    color: gold;
+        
+}
+#formacao{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: sans-serif;
+    color: gold;
+    
+}
+#portfolio{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content:center;
+
+}
+footer{
+    width: 100%;
+    height: 80px;
+    text-align: right;
+    padding: 20px;
+    background-color:rgb(122, 122, 132);
+    font-size: medium;
+    font-family: sans-serif;
+    color: white;
+    
+           
+}
